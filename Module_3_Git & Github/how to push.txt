@@ -1,0 +1,13 @@
+git init
+git add .(all files)
+git commit -m "comment"
+git branch -M main
+git remote add origin https://github.com/shougoto-hub/practice.git(remote origin copy from repository)
+git push -u origin main
+
+after 1st time-then
+1.git add .(all files)
+2.git commit -m "comment"
+3.git push
+
+(then how to add other people,work in group, copy and work in open souce)

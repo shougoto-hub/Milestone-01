@@ -1,0 +1,48 @@
+header{
+    font-size: 60px;
+    border: 2px solid yellow;
+    box-shadow: 20px 20px 20px;
+    text-align: center;
+    height: 200px;
+    /* background-color: antiquewhite; */
+    /* background-image: url('/styles/nigga.jpg'); */
+    background-image: url('../no\ nigga.jpg');
+    /* background-repeat:no-repeat ; */
+    /* background-repeat:repeat-x; */
+    /* background-repeat:repeat-y; */
+    /* background-size:cover; */
+    /* background-size:contain; */
+    /* background-size:200px; */
+
+}
+.nigga{
+    color:white;
+    font-size: 40px;
+    border: 2px solid red;
+    box-shadow: 10px 10px 10px rgb(166, 140, 131);
+    padding: 10px;
+    display:inline-block ;
+    height: 60px;
+}
+h2{font-size: 30px;
+text-decoration: overline;
+font-family: 'Courier New', Courier, monospace;
+}
+/* div{
+   background-color:aqua ;   
+ } */
+  /* .second{
+     display: none;
+     visibility: hidden; 
+}  */
+.blog{
+margin: 20px;
+border: solid tomato;
+padding: 10px;
+box-shadow: 10px 10px 20px blueviolet;
+}
+.office{
+    border: 2px solid red;
+    /* display: block; */
+}
+

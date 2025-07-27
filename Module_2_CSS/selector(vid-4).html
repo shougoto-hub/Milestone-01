@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mixed selectors</title>
+    <style>
+      /* *{
+            margin: 0;
+        } */
+      /* p{
+            color: red;
+        } */
+      #four,
+      li {
+        font-size: 20px;
+      }
+      .toper,
+      .holud {
+        background-color: yellow;
+        color: black;
+      }
+      /* multiple class same work & we can use as many selectors(id,class,element-normal tag,universal(*)) we want after koma(,) */
+      .bold,
+      li {
+        font-weight: 800;
+      }
+      /* []is atribute in tag */
+      input[type="password"] {
+        color: red;
+      }
+      .cs {
+        color: burlywood;
+      }
+      .blog {
+        background-color: burlywood;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Explore mixed selectors</h2>
+    <!-- we can use as many class as we want in a line but id is only one time useable -->
+    <p class="toper bold">1st line</p>
+    <p class="toper bold">2nd line</p>
+    <p>3rd line</p>
+    <p id="four">4th line</p>
+    <!-- span- in line a part specific styleing with css -->
+    <p class="bold">5th <span class="cs">line</span></p>
+    <p class="holud">6th line</p>
+    <p style="color: blue">type of selectors</p>
+    <ol>
+      <li>Element selector</li>
+      <li>ID selector</li>
+      <li>class selector</li>
+      <li>universal selector</li>
+    </ol>
+    <form>
+      <input type="text" />
+      <br /><br />
+      <input type="password" />
+    </form>
+
+    <div class="blog">
+      <h2>blog part</h2>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis
+        accusantium optio sunt neque repellat iusto ad voluptatibus dicta,
+        facilis fugit aut ipsam placeat autem, vero, voluptates deserunt sint
+        beatae eveniet.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus et,
+        illo nam tenetur quasi officiis mollitia dolore quod distinctio iste,
+        magnam blanditiis voluptas nobis iusto voluptatibus labore veniam libero
+        quas?
+      </p>
+    </div>
+  </body>
+</html>
